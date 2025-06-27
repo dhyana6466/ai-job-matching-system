@@ -33,10 +33,11 @@ AI-JOB-MATCHING-SYSTEM/
 ├── README.md
 ├── report.md
 └── requirements.txt
+``` 
 
 ## How to Run the Project
 
 ### 1. Clone the repository
 ```bash
-git clone 
-cd # ai-job-matching-system
+git clone https://github.com/dhyana6466/ai-job-matching-system 
+cd ai-job-matching-system
