@@ -13,7 +13,7 @@ This project uses AI to match a user's resume with the most relevant job descrip
 ---
 
 ## Project Structure
-
+```
 ai-job-matching-system/
 │
 ├── data/
@@ -33,7 +33,7 @@ ai-job-matching-system/
 ├── README.md
 ├── report.md
 └── requirements.txt
-
+```
 
 ## How to Run the Project
 
