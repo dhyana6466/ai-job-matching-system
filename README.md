@@ -39,4 +39,4 @@ AI-JOB-MATCHING-SYSTEM/
 ### 1. Clone the repository
 ```bash
 git clone 
-cd 
+cd # ai-job-matching-system
