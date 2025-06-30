@@ -19,8 +19,11 @@ ai-job-matching-system/
 ├── data/
 │ ├── job_postings_clean.csv # Cleaned job listings
 │ ├── job_postings_embedded.pkl # Pickled job embeddings
+│ ├── job_postings.csv
+│ ├── resume_clean.txt
 │ ├── resume.txt # User's resume in plain text
 │ └── top_10_similar_jobs.csv # Final output: top 10 matches
+│ └── top_10_similarity_plot.png # Similarity bar chart
 │
 ├── src/
 │ ├── stage1_data_acquisition.py # Collect data via API
@@ -30,6 +33,7 @@ ai-job-matching-system/
 │ └── utils.py # Helper functions
 |
 ├── .env
+├── .gitignore
 ├── README.md
 ├── report.md
 └── requirements.txt
@@ -41,8 +45,9 @@ ai-job-matching-system/
 ```bash
 git clone https://github.com/dhyana6466/ai-job-matching-system 
 cd ai-job-matching-system
+```
 
-### 2. Install depenencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
 ### 3. Add resume
@@ -60,8 +65,7 @@ python src/stage3_generate_embeddings.py
 
 # Match jobs and calculate similarity
 python src/stage4_similarity_and_ranking.py
-```
 
 ## Output
-You'll get the top 10 most relevant job matches in:
-data/top_10_similary_jobs.csv
+- You'll get the top 10 most relevant job matches in: data/top_10_similary_jobs.csv
+- Plot of similairty scores in: data/top_10_similarity_plot.png

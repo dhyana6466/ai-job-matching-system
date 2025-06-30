@@ -6,7 +6,7 @@ This project compares a student resume with job descriptions using sentence embe
 ---
 
 ## Stage 1: Data Acquisitions
-We used the **JSearch API** to programmatically fetch job posting based on filters such as location, keyword (e.g., "computer science), and employment type. This approach ensured we had relevant and real-world job descriptions in structured JSON formate.
+We used the **JSearch API** to programmatically fetch job posting based on filters such as location, keyword (e.g., "computer science), and employment type. This approach ensured we had relevant and real-world job descriptions in structured JSON format.
 
 **Tools Used:**
 - Python `requests` library for API calls
@@ -55,7 +55,8 @@ Used **cosine similarity** to compare the resume vector with each job posting ve
 2. Rank jobs in descending order of similarity
 3. Display top 10 most relevant jobs with company, location, and score
 
-Saved results to `data/top_10_similary_jobs.csv`
+Saved results to `data/top_10_similar_jobs.csv`
+Similarity plot: `data/top_10_similarity_plot.png`
 
 ---
 
