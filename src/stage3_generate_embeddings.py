@@ -3,14 +3,13 @@
 # Goal: Convert job description + skills into numerical embeddings using SentenceTransformer
 # Model Used: all-MiniLM-L6-v2 (Free, local model)
 # Input: data/job_postings_clean.csv
-# Output: data/job_postings_embeddeed.pkl
+# Output: data/job_postings_embedded.pkl
 # ---------------------------------------------
 
 # Necessary Libraries
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 import os
-from utils import get_sentence_transformer_model
 
 # Loading the cleaned job postings dataset from Stage 2
 df = pd.read_csv("data/job_postings_clean.csv")

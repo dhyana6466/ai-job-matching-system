@@ -30,7 +30,6 @@ ai-job-matching-system/
 │ ├── stage2_preprocessing.py # Clean and format job data
 │ ├── stage3_generate_embeddings.py # Generate job embeddings
 │ ├── stage4_similarity_and_ranking.py # Match resume to jobs
-│ └── utils.py # Helper functions
 |
 ├── .env
 ├── .gitignore
